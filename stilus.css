@@ -1,43 +1,86 @@
-﻿body {}
+﻿body {
+    background-image: url("hatter.png");
+    font-family: sans-serif;
+    font-size: 110%;
+    color: #444444;
+}
 
 #tartalom {
     padding: 2px;
+    background-color: white;
+    margin: auto;
+    width: 1100px;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    
 }
 
 h1,
 h2 {
     font-family: sans-serif;
+    color: #FC4842;
+    
 }
 
 h2 {
-    padding: 2px;
+    padding: 20px;
     clear: left;
+    font-style: italic;
+    background-color: #CCCCCC;
+
 }
 
 p {
-    text-align: ;
+    text-align: justify;
 }
 
 .bal {
-    float: ;
+    float: left;
+    border: none;
+    margin: 0px;
+    margin-right: 5px;
 }
 
 .kozep {
     display: block;
-    margin-left: ;
-    margin-right: ;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
 }
 
 table,
 th,
 td {
     border-collapse: collapse;
+    text-align: center;
+
+    
 }
 
 td {
-    font-size: ;
+    font-size: 120%;
+
 }
 
 th {
     padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #CCCCCC;
+    color: #FC4842
+
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
